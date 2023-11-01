@@ -1,0 +1,11 @@
+# file formats
+*.docx
+*.pptx
+*.exe
+*.mp4
+*.LOG
+*.ppsx
+
+# folders
+install
+install/*
