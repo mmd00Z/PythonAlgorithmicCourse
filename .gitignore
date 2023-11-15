@@ -3,9 +3,8 @@
 *.pptx
 *.exe
 *.mp4
-*.LOG
 *.ppsx
 
 # folders
-install
-install/*
+/install
+/temp
