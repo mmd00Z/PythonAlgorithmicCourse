@@ -4,6 +4,7 @@
 *.exe
 *.mp4
 *.ppsx
+settings.json
 
 # folders
 /install
