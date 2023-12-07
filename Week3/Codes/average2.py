@@ -1,9 +1,17 @@
-numbers = [15, 14, 17, 16, 12.5, 20, 20, 20]
+numbers = [14, 15, 13, 16, 15.75, 18.25, 20, 20]
 
-i = 0
-sum_value = 0
-while i < len(numbers):
-  sum_value += numbers[i]
-  i += 1
 
-print(sum_value / len(numbers))
+sum_val = 0
+for i in numbers:
+  sum_val += i
+
+print('sum:', sum_val)
+print('average:', sum_val / len(numbers))
+
+
+# sum_val = 0
+# for i in range(len(numbers)):
+#   sum_val += numbers[i]
+
+# print('sum:', sum_val)
+# print('average:', sum_val / len(numbers))
