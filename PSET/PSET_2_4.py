@@ -1,4 +1,7 @@
-for i in range(int(input()), int(input())+1):
+a = int(input())
+b = int(input())
+
+for i in range(a, b+1):
     if i > 1:
         is_prime = True
         for j in range(2, i):
